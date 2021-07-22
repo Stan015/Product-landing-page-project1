@@ -1,0 +1,270 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+#header{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    position: fixed;
+    background-color:blue;
+    width: 100%;
+    height: 80px;
+}
+body {
+    background-color: gainsboro;
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    width: auto;
+}
+.com-name {
+    display: flex;
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-style: italic;
+    font-size: 20px;
+}
+#header-img {
+    display: flex;
+    width: 80px;
+    height: 80px;
+    margin-left: 0;
+    padding: 0;
+}
+h1{
+    padding-top: 100px;
+}
+.index-nav {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 0 0 auto;
+    padding-right: 15px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.nav-link {
+    display: flex;
+    flex-wrap: wrap;
+    list-style: none;    
+}
+
+a {
+    padding: 5px;
+    color: white;
+    text-decoration: none;
+    font-family: arial;
+}
+.nav-link a:hover {
+    color:tomato
+    
+}
+nav-bar {
+    position: fixed;
+}
+.welcome-note {
+    font-size: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.index-added-text {
+    font-size: 17px;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: blue;
+    margin: 0 70px 10px 70px
+}
+#email {
+    width: 250px;
+}
+#submit {
+    width: 100px;
+}
+
+#products {
+    display: flex;
+    flex-wrap: wrap;
+    text-align: justify;
+    justify-content: flex-start;
+    align-items: center;
+    margin: 30px 0 30px 70px;
+}
+#services {
+    display: flex;
+    flex-wrap: wrap;
+    text-align: justify;
+    justify-content: flex-start;
+    align-items: center;
+    margin: 30px 0 30px 70px;
+}
+#contacts {
+    display: flex;
+    flex-wrap: wrap;
+    text-align: justify;
+    justify-content: flex-start;
+    align-items: center;
+    margin: 30px 0 30px 70px;
+   
+}
+.index-products {
+    display: block;
+    flex-wrap:wrap;
+    margin: 0 0 0 97px;
+    font-size: 17px;
+}
+.index-services {
+    display: block;
+    flex-wrap: wrap;
+    margin: 0 auto 0 98px;
+    font-size: 18px;
+}
+.index-contacts {
+    display: block;
+    flex-wrap: wrap;
+    margin: 0 auto 0 98px;
+    font-size: 18px;
+}
+.grid img {
+    width: 250px;
+    height: 250px;
+}
+#video {
+    margin: 30px auto 30px auto;
+}
+.footer-nav {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    color: white;
+    background-color:blue;
+    width: 100%;
+    height: 80px;
+    justify-content: space-evenly;
+}
+@media only screen and (max-width: 1030px) {
+    .com-name {
+        font-size: 25px;
+    }
+
+    .index-nav {
+        font-size: 20px;
+        padding: 9px;
+        
+    }
+    h1{
+        padding-top: 95px;
+    }
+    .welcome-note {
+        font-size: 35px;
+    }
+    #submit {
+        width: 90px;
+    }
+    .index-added-text {
+        font-size: 20px;
+        margin: 0 30px 0 30px
+
+    }
+   
+    #products {
+        margin: 20px 0 20px 30px;
+    }
+    #services {
+        margin: 20px 0 20px 30px;
+
+    }
+    #contacts {
+        margin: 20px 0 20px 30px;
+
+    }
+    .index-products {
+        margin: 0 0 0 30px;
+        font-size: 16px;
+        
+    }
+    .index-services {
+        margin: 0 0 0 30px;
+        font-size: 16px;
+        
+    }
+    .index-contacts {
+        margin: 0 0 0 30px;
+        font-size: 16px;
+        
+    }
+    .grid img {
+        width: 230px;
+        height: 230px;
+    }
+
+}
+@media only screen and (max-width: 500px) {
+    .com-name {
+        font-size: 15px;
+    }
+
+    .index-nav {
+        font-size: 10px;
+        padding-right: 5px;
+        
+    }
+    h1{
+        padding-top: 90px;
+    }
+    .welcome-note {
+        font-size: 23px;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+    .index-added-text {
+        font-size: 13px;
+        margin: 0 70px 0 70px
+    }
+    #email {
+        width: 200px;
+    }
+    #submit {
+        width: 70px;
+    }
+    #products {
+        margin: 10px 50px 10px 50px;
+        flex-direction: column;
+
+    }
+    #services {
+        margin: 10px 50px 10px 50px;
+        flex-direction: column;
+    }
+    #contacts {
+        margin: 10px 50px 10px 50px;
+        flex-direction: column;
+    }
+    .index-products {
+        font-size: 14px;
+        margin: 0 0 0 0;
+        text-align: center;
+
+    }
+    .index-services {
+        font-size: 14px;
+        margin: 0 0 0 0;
+        text-align: center;
+
+    }
+    .index-contacts {
+        font-size: 14px;
+        margin: 0 0 0 0;
+        text-align: center;
+
+    }
+    .grid img {
+        width: 250px;
+        height: 200px;
+    }
+    .container {
+        display: flex;
+        justify-content: center; 
+        flex-direction: column;
+        justify-content: space-evenly;
+        flex-wrap: wrap;
+    }
+    .footer-nav{
+        font-size: 12px;
+    }
+}
